@@ -1,0 +1,25 @@
+// ===== VEGA 3 PIN DEFINITIONS =====
+
+// Ultrasonic
+#define TRIG_PIN 5
+#define ECHO_PIN 18
+
+// IR Sensor (presence)
+#define IR_PIN 19
+
+// Touch SOS
+#define SOS_PIN 23
+
+// Buzzer
+#define BUZZER_PIN 27
+
+// OLED (I2C)
+#define SDA_PIN 21
+#define SCL_PIN 22
+
+// BMP (I2C)
+#define BMP_ADDRESS 0x76
+
+// Bluetooth (UART2)
+#define BT_RX 16
+#define BT_TX 17
